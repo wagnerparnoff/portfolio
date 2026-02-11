@@ -1,0 +1,181 @@
+export const translations = {
+  pt: {
+    nav: {
+      about: "Sobre",
+      skills: "Skills",
+      experience: "Experiência",
+      projects: "Projetos",
+      contact: "Contato",
+      downloadCv: "Baixar CV",
+    },
+    hero: {
+      role: "Full Stack Developer",
+      subtitle: "Desenvolvedor Full Stack com experiência em plataformas de e-commerce de alto tráfego, frontend, backend e práticas DevOps.",
+      ctaProjects: "Ver Projetos",
+      ctaCv: "Baixar Currículo",
+      ctaContact: "Contato",
+    },
+    about: {
+      title: "Sobre Mim",
+      text: [
+        "Desenvolvedor Full Stack com experiência em React, Vue.js, Node.js e GraphQL.",
+        "Especialista em VTEX IO e FastStore, com foco em e-commerce e aplicações de alto tráfego.",
+        "Sólidos conhecimentos em Docker, CI/CD, GitLab e monitoramento com Grafana e Prometheus.",
+        "Atuo com foco em infraestrutura, automação e escalabilidade, sempre buscando boas práticas de arquitetura.",
+      ],
+    },
+    skills: {
+      title: "Stack & Skills",
+      frontend: "Frontend",
+      backend: "Backend",
+      devops: "DevOps / Infra",
+      data: "Banco de Dados / Dados",
+    },
+    experience: {
+      title: "Experiência Profissional",
+      jobs: [
+        {
+          company: "Quality Digital",
+          role: "Desenvolvedor Pleno",
+          period: "Atual",
+          description: "Atuação com VTEX IO, FastStore, foco em performance, SEO e componentização em React.",
+        },
+        {
+          company: "Grupo Zaffari & Bourbon",
+          role: "Desenvolvedor Full Stack",
+          period: "Anterior",
+          description: "Desenvolvimento com React, Node.js, GraphQL. Implementação de Docker, CI/CD com GitLab e monitoramento de ambientes.",
+        },
+        {
+          company: "ADP",
+          role: "Desenvolvedor ETL",
+          period: "Anterior",
+          description: "Data warehouse, integração de dados, SQL e BI.",
+        },
+        {
+          company: "PUCRS / DELL",
+          role: "P&D",
+          period: "Anterior",
+          description: "Pesquisa e desenvolvimento com Python, Linux, Virtualização e OpenStack.",
+        },
+      ],
+    },
+    projects: {
+      title: "Projetos",
+      viewProject: "Acessar Projeto",
+      viewCode: "Repositório GitHub",
+      adminTitle: "Gerenciamento de Projetos",
+      addProject: "Adicionar Projeto",
+      editProject: "Editar",
+      deleteProject: "Remover",
+      form: {
+        name: "Nome do Projeto",
+        descriptionPt: "Descrição (Português)",
+        descriptionEn: "Description (Inglês)",
+        tech: "Tecnologias (separadas por vírgula)",
+        link: "Link do Projeto",
+        repo: "Link do Repositório",
+        save: "Salvar",
+        cancel: "Cancelar",
+      },
+    },
+    contact: {
+      title: "Contato",
+      email: "Email",
+      linkedin: "LinkedIn",
+      github: "GitHub",
+      cta: "Entrar em Contato",
+    },
+  },
+  en: {
+    nav: {
+      about: "About",
+      skills: "Skills",
+      experience: "Experience",
+      projects: "Projects",
+      contact: "Contact",
+      downloadCv: "Download CV",
+    },
+    hero: {
+      role: "Full Stack Developer",
+      subtitle: "Full Stack Developer with experience in high-traffic e-commerce platforms, frontend, backend and DevOps practices.",
+      ctaProjects: "View Projects",
+      ctaCv: "Download CV",
+      ctaContact: "Contact",
+    },
+    about: {
+      title: "About Me",
+      text: [
+        "Full Stack Developer with experience in React, Vue.js, Node.js, and GraphQL.",
+        "Specialist in VTEX IO and FastStore, focusing on e-commerce and high-traffic applications.",
+        "Solid knowledge in Docker, CI/CD, GitLab, and monitoring with Grafana and Prometheus.",
+        "Focused on infrastructure, automation, and scalability, always seeking architectural best practices.",
+      ],
+    },
+    skills: {
+      title: "Stack & Skills",
+      frontend: "Frontend",
+      backend: "Backend",
+      devops: "DevOps / Infra",
+      data: "Database / Data",
+    },
+    experience: {
+      title: "Professional Experience",
+      jobs: [
+        {
+          company: "Quality Digital",
+          role: "Mid-level Developer",
+          period: "Current",
+          description: "Working with VTEX IO, FastStore, focusing on performance, SEO, and React componentization.",
+        },
+        {
+          company: "Grupo Zaffari & Bourbon",
+          role: "Full Stack Developer",
+          period: "Previous",
+          description: "Development with React, Node.js, GraphQL. Implementation of Docker, CI/CD with GitLab, and environment monitoring.",
+        },
+        {
+          company: "ADP",
+          role: "ETL Developer",
+          period: "Previous",
+          description: "Data warehouse, data integration, SQL, and BI.",
+        },
+        {
+          company: "PUCRS / DELL",
+          role: "R&D",
+          period: "Previous",
+          description: "Research and development with Python, Linux, Virtualization, and OpenStack.",
+        },
+      ],
+    },
+    projects: {
+      title: "Projects",
+      viewProject: "View Project",
+      viewCode: "GitHub Repository",
+      adminTitle: "Project Management",
+      addProject: "Add Project",
+      editProject: "Edit",
+      deleteProject: "Delete",
+      form: {
+        name: "Project Name",
+        descriptionPt: "Description (Portuguese)",
+        descriptionEn: "Description (English)",
+        tech: "Technologies (comma separated)",
+        link: "Project Link",
+        repo: "Repository Link",
+        save: "Save",
+        cancel: "Cancel",
+      },
+    },
+    contact: {
+      title: "Contact",
+      email: "Email",
+      linkedin: "LinkedIn",
+      github: "GitHub",
+      cta: "Get in Touch",
+    },
+  },
+};
+
+export type Language = "pt" | "en";
+export type Translation = typeof translations.pt;
